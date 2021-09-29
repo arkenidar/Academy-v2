@@ -21,31 +21,6 @@ sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
 <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
 </field>
 
-<!--
-<field id="display_text" translate="label" type="text"
-sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
-<label>Text</label>
-<comment>Prompt</comment>
-</field>
-
-<field id="custom_textarea" translate="label" type="textarea"
-sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
-<label>Textarea</label>
-</field>
-
-<field id="picture" translate="label" type="image"
-sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
-<label>Image</label>
-<backend_model>Magento\Config\Model\Config\Backend\Image</backend_model>
-<upload_dir config="system/filesystem/media"
-scope_info="1">picture</upload_dir>
-<base_url type="media" scope_info="1">picture</base_url>
-<comment><![CDATA[Allowed files: jpg, png,
-gif]]></comment>
-</field>
-
--->
-
 </group>
 </section>
 </system>
